@@ -1,0 +1,62 @@
+body {
+  font-family: 'Epilogue', sans-serif;
+  font-weight: 400;
+  color: #391400;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.wrapper-faq {
+  margin: 0 auto;
+  max-width: 770px;
+}
+
+header {
+  background-color: #28293E;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 800;
+  color: #fff;
+}
+
+h2 {
+  font-size: 56px;
+  font-weight: 800;
+}
+
+a,
+button {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.bg-magenta {
+  background-color: #FDF0E9;
+}
+
+.bg-sapphire {
+  background-color: #28293E;
+}
+
+@media screen and (max-device-width: 1221px) {
+  .wrapper {
+    margin: 0 auto;
+    max-width: 768px;
+  }
+
+  h1 {
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-device-width: 646px) {
+  h2 {
+    font-size: 40px;
+  }
+}
